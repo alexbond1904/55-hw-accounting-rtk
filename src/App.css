@@ -1,0 +1,21 @@
+.email, .pass, .user {
+    padding-left: 50px !important;
+    color: #616161;
+}
+
+.email {
+    background: url("../src/img/mail.svg") no-repeat 18px center;
+    background-size: 22px 22px;
+}
+.pass {
+    background: url("../src/img/password.svg") no-repeat 18px center;
+    background-size: 22px 22px;
+}
+.user {
+    background: url("../src/img/user.svg") no-repeat 18px center;
+    background-size: 22px 22px;
+}
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    padding-left: 14px !important;
+}
